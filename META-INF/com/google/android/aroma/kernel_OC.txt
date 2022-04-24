@@ -1,0 +1,39 @@
+<@center><b><#selectbg_g>ENGLISH</#></b>
+
+<@center><b><#selectbg_g>RTX Kernel</#></b>
+
+<b><#selectbg_g>About Overclocked Kernel :</#></b></@>
+
+<@fill><q>
+<b>
+Overclocked Kernels actually is safe if u're using it 
+with carefully . But still use it with ur 
+own risk :) .
+</b>
+
+<b>NOTE:
+* Recommended to use this kernel with spectrum. 
+  It will be a best option else your choice.
+</b>
+
+</q></@>
+
+<@center><b><#selectbg_g>INDONESIA</#></b>
+
+<@center><b><#selectbg_g>Kernel RTX</#></b>
+
+<b><#selectbg_g>Tentang Kernel yang diOverclock :</#></b></@>
+
+<@fill><q>
+<b>
+Kernel yang diOverclock itu sebenarnya aman
+apabila agan menggunakannya dengan hati-hati .
+Tapi tetap Resiko ditanggung Pemenang :) .
+</b>
+
+<b>NOTE:
+* Disarankan menggunakan kernel ini dengan spectrum. 
+  Ini akan menjadi opsi terbaik .
+</b>
+
+</q></@>

@@ -1,0 +1,70 @@
+<@center><b><#selectbg_g>ENGLISH</#></b>
+
+<@center><b><#selectbg_g>SkyWalker Kernel</#></b>
+
+<b><#selectbg_g>About Kernel Variants :</#></b></@>
+
+<@fill><q>
+R : Kernel with CAF LA.UM.9.2.r1-XXXXX-SDMxx0.0.
+
+XR : Kernel for Android 10 , 11 , and Stock ROM
+     which it's still using Old QPNP Vibration driver .
+	 With CAF LA.UM.8.2.r2-XXXXX-sdm660.0 , so Don't flash
+	 on ROMs with LEDs Based Vibration else Vibrate will Dead.
+
+P : Kernel for Android 9 Custom ROM only with
+    CAF LA.UM.9.2.r1-XXXXX-SDMxx0.0 , don't
+	flash on others else WiFi Will dead.
+
+NFI : Kernel Variant with CAF 9.2 / R WiFi Driver .
+      Recommended to use this variant if u're on Q Firmware.
+
+OFI : Kernel Variant with CAF 7.2 / P WiFi Driver .
+      U can use this Variant on Both Firmware (Pie and Q).
+
+LV : For ROM which using LEDs Based Vibration driver or
+     usually A11 and above , don't flash on A10 or ROMs
+	 which still using Old QPNP Vibration driver else
+	 will bootloop.
+
+NLV : For ROMs which still using Old QPNP Vibration Driver
+      or usually A10 and below . Don't flash on ROMs with
+	  LEDs Based Vibration else Vibrate will Dead.
+	  
+What is EAS?
+
+Energy Aware Scheduling (EAS) is an enhancement
+to Linux power management, unifying CPU power
+control under the Linux kernel. EAS extends the
+Linux kernel scheduler to make it fully aware
+of the power/performance capabilities of the
+CPUs in the system, to optimize energy
+consumption for advanced multi-core SoCs
+including big.LITTLE. With EAS, the Linux kernel
+will use the task load and a CPU ‘Energy Model’ to
+control task placement to select the optimal
+CPU to run on.
+
+What is HMP ?
+
+Heterogeneous Multi-Processing (HMP) This is the
+standard load scheduler for any big.LITTLE device
+released in recent years, other than the
+Google Pixel. HMP makes use of the big.LITTLE
+architecture, delegating low priority, less intensive
+work to the little cores which consume less power.
+HMP is “safe” wherein it knows what should go to the
+big cores and what should go to the little cores,
+without making mistakes. It just works and requires a
+lot less effort to set up on the development side than
+something like EAS, which we’ll get into in a moment.
+HMP is just an extension of CFS to make it power aware.
+
+HMP doesn’t take guesses, nor does it predict future
+processes. This is good but is why the device cannot be
+as fluid as those running EAS and is also why it consumes
+slightly more battery. This, finally, brings us to
+Energy Aware Scheduling (EAS), which I firmly believe is
+the future in ROM and kernel development as more OEMs
+adopt it.
+</q></@>

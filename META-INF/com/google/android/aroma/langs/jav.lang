@@ -1,0 +1,148 @@
+﻿### LICENSE:
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+### LANGUAGE STRING RESOURCE FILE
+#
+#   Language  : Javanese
+#   By        : RyuujiX
+#
+
+#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_start=Mulai
+text_restore=Pulihke
+text_finish=Rampung
+text_install=Pasang
+text_next=Teruske
+text_back=Bali
+text_yes=Nggeh
+text_no=Mboten
+text_about=Babagan
+text_calibrating=Alat Kalibrasi
+text_quit=Batal Instalasi
+text_quit_msg=Sampeyan manawa bakal mbatalake instalasi?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=kanggo
+common.toupper=Kanggo
+common.to=kanggo
+common.press=Pencet
+common.cancel=batal
+language=Boso
+select.language=Pilih Boso
+
+langtest.title=Language Test
+langtest.multiline=This text is located in langs/en.lang\
+Use backslash before enter to add new line\
+\
+You can also do <b>Formatting</b> inside the language string resource.\
+\
+Thanks for using AROMA Installer
+
+#-- End of string without any backslash for multiline text
+
+
+themes.title=Pilih Tema
+themes.desc=Please select installer theme that you want to use in this installation test:
+
+welcome.title=Sugeng Rawuh
+welcome.text1=Sampeyan arep nginstal
+welcome.text2=AROMA Installer was the first and the only Touch and Customizable ANDROID ROM Installer in the World.
+welcome.version=VERSI
+welcome.codename=PIRANTI
+welcome.builddate=TANGGAL GAWE
+welcome.author=DIGAWE OLEH
+welcome.buildvariant=VARIAN
+welcome.warning=OJO GANDA UTAWA NUDUHAKE FILE CLOUD/LINK INI LANGSUNG.
+welcome.next=Pencet Teruske kanggo Teruske Instalasi...
+
+perfhal=Perf HAL
+perfhal.restore=Pulihke Perf HAL Lawas
+perfhal.restoreinfo=Kanggo mulihke Perf Hal lawas.Yen sadurunge wis diinstal minangka modul, cukup copot liwat Magisk Manager.
+
+add.on=Tambahan
+kernel.about=Babagan Kernel
+kernel.aboutoc=Babagan Kernel Overclock
+kernel.variantinfo=Info Varian
+have.readinfo=Kulo sampun Woco Info iki
+have.understand=OK, Kulo Ngerti
+have.understandagree=OK, Kulo Ngerti lan Setuju
+check.tocontinue=Centang manawa sampeyan pengin terus !
+info.caution=Woco kanthi tliti
+infooc.caution=Penafian Kernel OC
+infovariant.caution=Woco Iki kanggo mesthekake yen sampeyan ora nginstal Kernel sing salah
+spectrum.confirm=Aktifke dhukungan spektrum
+with.spectrum=Instal kernel iki kanthi dhukungan spektrum.
+without.spectrum=Instal kernel iki tanpa dhukungan spektrum.
+ready.restore=Siap kanggo Pulihke
+begin.restore=kanggo pulihke
+restoring=Mulihke
+isbeing.restored=lagi diPulihke.
+resfinish=rampung diPulihke ,  Pencet Rampung kanggo Metu.
+install=Instal
+ready.install=Siap Kanggo Nginstal
+kernel.install=Kernel iki Siap Nginstal
+begin.install=kanggo nginstal kernel iki
+review.confirm=Yen ono sing ndeleng utawa diganti
+installing=Menginstal
+isbeing.installed=lagi nginstal.
+please.wait=Tulung ngenteni, Iki bisa uga butuh wektu suwe...
+installed=Kernel wis sukses diinstal, Pencet Rampung kanggo Metu.
+refresh.rate=Milih Refresh Rate: (Ngganti iki beboyo)
+backup.boot=Gawe Serep Boot.img
+dobackup.boot=Gawe Serep
+dontbackup.boot=Ojo Gawe Serep
+forcedttw=Peksa DT2W
+enable.forcedttw=Peksa Uripke DT2W
+disable.forcedttw=Pateni Peksaan DT2W
+forceenable.dttw=Migunakake kanggo Pangguna Non-Root sing beda Node DT2W
+removeforced.dttw=Pateni lan Copot Fitur "Peksa DT2W"
+enabling=Nguripke
+disabling=Mateni
+enabled=sampun diuripke
+disabled=sampun dipateni
+selinux.switch=Ganti Status SELinux
+selinux.switched=SELinux Diganti
+switching=Ngganti
+enforcing=Enforcing
+enforcing.info=Ganti SELinux dadi Enforcing. Sampeyan ora iso ngganti iki yen ROM Permisif minangka bawaan.
+permissive=Permisif
+permissive.info=Ganti SELinux dadi Permisif.
+do.nothing=Ojo nindakke opo-opo.
+install.kernel=Instal Kernel iki.
+patch.ram=Tambel RAM
+patchraminfo=Migunani kanggo pangguna RAM 3GB (Dhukungan Legacy Android LMK dibutuhake).
+will.removerampatch=Bakal mbusak patch uga yen ana.
+magisk.mode=Mode Magisk
+magiskd.modeinfo=Mbutuhke Magisk. Jalanke Skript nganggo metode service.d.
+init.mode=Mode Init
+init.modeinfo=Migunani kanggo pangguna Non-Root. Jalanke Skript nganggo metode init.
+removing.rampatch=Mbusakke Tambelan RAM
+rampatch.removed=Tambelan RAM dibusak
+patching.ram=Nambal RAM
+ram.patched=RAM ditambal
+
+terms.title=Syarat lan Ketentuan
+terms.desc=Woco kanthi tliti Syarat lan Ketentuan AROMA Installer Ing ngisor iki.
+terms.check=Aku Setuju karo Syarat lan Ketentuan iki...
+terms.confirm=Monggo dipriksa kesepakatan...
+
+changelog.title=Opo wae sing wis diganti / anyar?
+changelog.desc=AROMA Installer Changelog
